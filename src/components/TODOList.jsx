@@ -1,3 +1,4 @@
+import { colors } from "@mui/material";
 import React from "react";
 
 function TODOList({ todos, setTodos }) {
@@ -8,7 +9,7 @@ function TODOList({ todos, setTodos }) {
           <Item key={index} item={item} todos={todos} setTodos={setTodos} />
         ))
       ) : (
-        <p>Seems lonely in here, what are you up to?</p>
+        <p style={{color: "orangeRed"}}>Seems lonely in here, what are you up to?</p>
       )}
     </ol>
   );
