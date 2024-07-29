@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(27, 26, 26);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+}
+
+.container > form {
+    width: 100%;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background: #05b462;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #038a4f;
+}
+
+p {
+    color: rgb(255, 0, 0);
+    margin: 5px 0 10px 0;
+}
+
+.text {
+    margin-top: 10px;
+    padding: 5px;
+    color: #fff;
+}
+
+span {
+    color: rgb(0, 95, 236);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}

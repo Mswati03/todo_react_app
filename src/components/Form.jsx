@@ -3,6 +3,12 @@ function Form({ todos, setTodos }) {
     event.preventDefault();
 
     const value = event.target.todo.value;
+
+    if (value.trim() === '') {
+      alert('Please enter a valid task.');                        
+      return;
+    }
+
     const newTodo = {
       title: value,
       id: crypto.randomUUID(),
