@@ -29,7 +29,7 @@ function Form({ todos, setTodos }) {
           type="text"
           name="todo"
           id="todo"
-          placeholder="Task"
+          placeholder="Write your next task"
         />
       </label>
 

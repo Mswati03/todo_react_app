@@ -1,25 +1,3 @@
-:root {
-  --text-color: #000;
-  --background-color: #fff;
-  --button-background-color: #88ab33;
-  --button-text-color: #fff;
-  --input-background-color: #f1f1f1;
-  --input-text-color: #000;
-  --icon-color: #c2b39a;
-  --border-color: #ccc;
-}
-
-[data-theme="dark"] {
-  --text-color: #fff;
-  --background-color: #0d0d0d;
-  --button-background-color: #1f2937;
-  --button-text-color: #fff;
-  --input-background-color: #1f2937;
-  --input-text-color: #fff;
-  --icon-color: #88ab33;
-  --border-color: #c2b39a;
-}
-
 *,
 *::after,
 *::before {
@@ -32,8 +10,8 @@
 html,
 body {
   font-family: sans-serif;
-  /*background-color: var(--background-color);*/
-  color: var(--text-color);
+  /*background-color: #0d0d0d;*/
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,11 +35,9 @@ button {
 
 .text_large {
   font-size: 32px;
-  color: orangered;
 }
 .text_small {
   font-size: 24px;
-  color: orangered;
 }
 
 .wrapper {
@@ -87,7 +63,7 @@ header {
 }
 
 .todohero_section {
-  border: 1px solid var(--border-color);
+  border: 1px solid #c2b39a;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -98,7 +74,7 @@ header {
   border-radius: 11px;
 }
 .todohero_section div:last-child {
-  background-color: var(--button-background-color);
+  background-color: #88ab33;
   width: 150px;
   height: 150px;
   border-radius: 75px;
@@ -107,7 +83,6 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: var(--button-text-color);
 }
 
 .form {
@@ -123,8 +98,8 @@ header {
   width: 90%;
 }
 .form input {
-  background-color: var(--input-background-color);
-  color: var(--input-text-color);
+  background-color: #1f2937;
+  color: #fff;
   width: 100%;
   height: 50px;
   outline: none;
@@ -133,11 +108,10 @@ header {
   padding: 12px;
 }
 .form button {
-  width: 30%;
+  width: 20%;
   height: 50px;
   border-radius: 11px;
-  background-color: var(--button-background-color);
-  color: var(--button-text-color);
+  background-color: #88ab33;
   border: none;
 }
 
@@ -160,10 +134,10 @@ header {
   height: 70px;
   width: 100%;
   max-width: 455px;
-  border: 1px solid var(--border-color);
+  border: 1px solid #c2b39a;
   font-size: 16px;
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: #0d0d0d;
+  color: #fff;
   padding: 12px;
 }
 
@@ -182,7 +156,7 @@ header {
 .todo_items_left {
   background-color: transparent;
   border: none;
-  color: var(--text-color);
+  color: #fff;
   gap: 12px;
   font-size: 16px;
 }
@@ -191,22 +165,10 @@ header {
 }
 .todo_items_right button {
   background-color: transparent;
-  color: var(--text-color);
+  color: #fff;
   border: none;
-  width: 50%;
 }
 
 .todo_items_right button svg {
-  fill: var(--icon-color);
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-}
-
-button {
-  margin: 20px;
+  fill: #c2b39a;
 }
